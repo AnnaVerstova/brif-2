@@ -1,0 +1,237 @@
+.page {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    background-color: #2A2C2F;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .logo_place {
+    max-width: 74em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-block-start: 1em;
+  }
+
+  .logo_place_header {
+    max-width: 11em;
+    max-height: 3.25em;
+
+  }
+
+  .header_link {
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: 6em;
+
+  }
+ 
+ 
+  .language_ru {
+    color: white;
+    text-decoration: none;
+    width: 30px;
+    height: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 52px;
+    margin: 0 18px 6px 0;
+    padding: 0;
+    
+    
+  }
+ 
+
+  .language_en {
+    color: white;
+    width: 29px;
+    height: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 52px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 0;
+
+
+  }
+
+
+  .header {
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .header_title {
+    width: 720px;
+    height: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+/* or 104% */
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+  }
+
+  .header_subtitle {
+    width: 640px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .header_img {
+    max-width: 61.5em;
+    height: 38.44em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+
+  }
+
+
+ .label {
+    color: #FFFFFF;
+    width: 158px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-inline-start: 0;
+  
+
+ }
+
+
+
+
+  .description {
+    width: 690px;
+    height: 100%;
+    left: 148px;
+    top: 1233px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 5em;
+    margin-inline-start: 15em;
+    margin-inline-end: 1em;
+
+
+  }
+
+  .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* identical to box height, or 107% */
+    color: #FFFFFF;
+    margin-bottom: 90px;
+
+  }
+
+  .subtitle { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+    color: #FFFFFF;
+    margin-bottom: 33px;
+
+  }
+
+  .subtitle_1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    color: #FFFFFF;
+
+
+  }
+
+  @media screen and (min-width:1280px) {
+    .header {
+      margin: 0 auto 100px auto;
+    }
+  }
+
+  .menu { 
+    max-width: 1184px;
+    margin: 0 auto;
+    padding-bottom: 5em;
+    width: calc(100% - 5em); /* так как по бокам 48px */
+    display: block;
+  }
+
+  .menu1 {
+    display: grid; /* сетка */
+    list-style-type: none; /* тип стиля списка: нет; */
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    /* сетка-шаблон-столбцы: повторение (автоматическая подгонка, минимум макс(284 пикселей, 
+    1 fr - дробная часть свободного пространства)) */
+    gap: 12px; /* пробел */
+  
+    
+  }
+
+   .img_menu {
+    min-width: 284px;
+    max-width: 100%;
+    border-style: none;
+    overflow: clip;
+    /* новое значение (поддерживается всеми основными браузерами, кроме Safari), 
+    похожее по результату на hidden, но границы родительского блока рассчитываются 
+    с учётом внутренних отступов */
+    margin: content-box;
+    /* поле: поле содержимого; */
+
+
+  }

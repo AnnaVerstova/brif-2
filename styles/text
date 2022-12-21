@@ -1,0 +1,15 @@
+.header {
+    width: 1184px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .logo_place_header {
+  margin-top: 28px;
+
+  
